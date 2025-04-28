@@ -1,0 +1,10 @@
+
+.header__logo {
+  width: 300px;
+}
+
+@media (min-width: 880px) {
+  .header__logo {
+    width: 450px;
+  }
+}
