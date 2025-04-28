@@ -9,7 +9,8 @@ export default function Main({
     <main className='main'>
       <section className='gallery page__gallery' aria-label='Галерея'>
         <div className='gallery__wrapper'>
-          <img className='gallery__img' src="https://i.postimg.cc/q7zJwYST/1939-001.jpg" alt='Лазарев Пётр Герасимович'/>
+          <img className='gallery__img' src="https://i.postimg.cc/q7zJwYST/1939-001.jpg"
+               alt='Лазарев Пётр Герасимович'/>
           <p className='gallery__description'>Мой прапрадед Лазарев Пётр Герасимович родился <b>18 марта 1909 г.</b> в
             р.п.Раевка Баш.АССР.
             Окончил Уфимский сельскохозяйственный институт по специальности агроном - полевод.
@@ -21,7 +22,6 @@ export default function Main({
             <b>Дома остались:</b> жена - Напольская Ольга Дмитриевна и четверо детей - Галина и Виталий - 1937 г.р.,
             Ирина -
             1939 г.р., Светлана - 1941 г.р.
-
           </p>
         </div>
         <div className='gallery__wrapper'>
@@ -60,9 +60,21 @@ export default function Main({
           <p className='gallery__description'><b>Посмертно награжден медалью "За отвагу".</b>
           </p>
           <div className='gallery__inner'>
-            <img className='gallery__img' src="https://i.postimg.cc/wjwpZpsr/Medal-Za-Otvagu.png" alt='Медаль "За отвагу"'/>
+            <img className='gallery__img' src="https://i.postimg.cc/wjwpZpsr/Medal-Za-Otvagu.png"
+                 alt='Медаль "За отвагу"'/>
             <img className='gallery__img' src="https://i.postimg.cc/NfDQcBwt/2025-04-28-21-32-40.png" alt='Выписки'/>
           </div>
+        </div>
+        <div className='gallery__wrapper gallery__wrapper_column'>
+          <p className='gallery__description'>Лазарев Пётр Герасимович оставил после себя наследие в виде:
+            <ul className='gallery__list'>
+              <li><b>4</b> детей</li>
+              <li><b>5</b> внуков</li>
+              <li><b>9</b> правнуков</li>
+              <li><b>10</b> праправнуков</li>
+            </ul>
+          </p>
+          <img className='gallery__img' src="https://i.postimg.cc/X7TdRpTZ/familio-my-tree-29-04-2025-01-24-02.png" alt='Древо'/>
         </div>
       </section>
     </main>
