@@ -27,12 +27,18 @@
   flex-direction: column;
 }
 
+.gallery__description_center {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 880px) {
   .gallery__wrapper {
     flex-direction: row;
     gap: 25px;
     font-size: 30px;
     line-height: 36px;
+    margin: 0 auto 65px;
   }
 
   .gallery__img {

@@ -38,7 +38,20 @@ export default function Main({
             Братском кладбище.
           </p>
         </div>
-        <div className='gallery__wrapper'>
+        {/*<div className='gallery__wrapper gallery__wrapper_column'>*/}
+        {/*  <p className='gallery__description gallery__description_center'>*/}
+        {/*    <b>Боевой путь</b>*/}
+        {/*  </p>*/}
+        {/*  <img className='gallery__img' src="https://i.postimg.cc/ryt1CCv7/2025-04-29-07-18-54.png"*/}
+        {/*       alt='Боевой путь'/>*/}
+
+        {/*</div>*/}
+        <div className='gallery__wrapper gallery__wrapper_column'>
+          <p className='gallery__description gallery__description_center'>
+            <b>Извещение</b>
+          </p>
+          <img className='gallery__img' src="https://i.postimg.cc/NFTRsB6Q/00000079.jpg"
+               alt='Извещение'/>
           <p className='gallery__description'>
             "Извещение. Гвардии сержант Лазарев Пётр Герасимович, состоявший в должности командира отделения, уроженец
             БАССР, рабочий посёлок Раевка, в бою за Социалистическую Родину, верный воинской присяге, проявив геройство
@@ -50,7 +63,8 @@ export default function Main({
           </p>
         </div>
         <div className='gallery__wrapper gallery__wrapper_column'>
-          <p className='gallery__description'><b>Посмертно награжден медалью "За отвагу".</b>
+          <p className='gallery__description gallery__description_center'><b>Посмертно награжден медалью "За
+            отвагу".</b>
           </p>
           <div className='gallery__inner'>
             <img className='gallery__img' src="https://i.postimg.cc/wjwpZpsr/Medal-Za-Otvagu.png"
@@ -59,7 +73,10 @@ export default function Main({
           </div>
         </div>
         <div className='gallery__wrapper gallery__wrapper_column'>
-          <p className='gallery__description'>Лазарев Пётр Герасимович оставил после себя наследие в виде:
+          <p className='gallery__description gallery__description_center'>
+            <b>Лазарев Пётр Герасимович оставил после себя наследие в виде</b>
+          </p>
+          <p className='gallery__description'>
             <ul className='gallery__list'>
               <li><b>4</b> детей</li>
               <li><b>5</b> внуков</li>
@@ -67,7 +84,8 @@ export default function Main({
               <li><b>10</b> праправнуков</li>
             </ul>
           </p>
-          <img className='gallery__img' src="https://i.postimg.cc/X7TdRpTZ/familio-my-tree-29-04-2025-01-24-02.png" alt='Древо'/>
+          <img className='gallery__img' src="https://i.postimg.cc/X7TdRpTZ/familio-my-tree-29-04-2025-01-24-02.png"
+               alt='Древо'/>
         </div>
       </section>
     </main>
